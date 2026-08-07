@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premium Website Design"
+  short_description: "Design distinctive personal sites and landing pages end-to-end."
+  default_prompt: "Design a premium personal website with a distinctive direction, strong interactions, light/dark themes, generated artwork, and verified quality."
