@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AERO (fictional demo · soft structural)</title>
+  <style>
+    :root {
+      --paper: oklch(0.95 0.006 260);
+      --surface: oklch(0.985 0.004 260);
+      --ink: oklch(0.2 0.02 260);
+      --muted: oklch(0.5 0.02 260);
+      --accent: oklch(0.55 0.19 255);
+      --shadow: 0 24px 60px -24px oklch(0.3 0.08 255 / 0.25);
+      --font: "Plus Jakarta Sans", "PingFang SC", sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+    }
+    :root[data-theme="dark"] {
+      --paper: oklch(0.17 0.014 260);
+      --surface: oklch(0.21 0.016 260);
+      --ink: oklch(0.95 0.006 240);
+      --muted: oklch(0.72 0.012 250);
+      --accent: oklch(0.68 0.15 255);
+      --shadow: 0 24px 60px -24px oklch(0 0 0 / 0.6);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: 72rem; margin-inline: auto; padding-inline: clamp(1.25rem, 4vw, 3rem); }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 0; }
+    .brand { font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; font-size: 0.95rem; }
+    nav { display: flex; gap: 1.6rem; }
+    nav a { color: var(--muted); font-size: 0.9rem; }
+    nav a:hover { color: var(--ink); }
+    .theme { border: 0; background: none; color: var(--ink); font: inherit; font-size: 0.85rem; cursor: pointer; }
+    .hero { padding: clamp(5rem, 10vw, 8rem) 0 4rem; position: relative; }
+    .hero h1 { font-size: clamp(3rem, 7vw, 6.5rem); font-weight: 300; letter-spacing: -0.03em; line-height: 1; max-width: 12ch; }
+    .hero h1 b { font-weight: 700; color: var(--accent); }
+    .floats { display: grid; grid-template-columns: repeat(2, minmax(0, 14rem)); gap: 1rem; margin-top: 3rem; }
+    .float { background: var(--surface); border-radius: 24px; box-shadow: var(--shadow); padding: 1.6rem; }
+    .float .num { font-size: 2.6rem; font-weight: 300; color: var(--accent); }
+    .float p { color: var(--muted); font-size: 0.9rem; }
+    .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; padding: 4rem 0; }
+    .feature { background: var(--surface); border-radius: 24px; box-shadow: var(--shadow); padding: 2rem; }
+    .feature h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.6rem; }
+    .feature p { color: var(--muted); font-size: 0.92rem; }
+    .cta { display: inline-flex; gap: 1rem; margin-top: 2.5rem; }
+    .btn { border-radius: 999px; padding: 0.85rem 1.5rem; font-weight: 700; }
+    .btn-primary { background: var(--accent); color: var(--surface); box-shadow: var(--shadow); }
+    .btn-ghost { border: 1px solid var(--muted); }
+    footer { padding: 2rem 0; color: var(--muted); font-size: 0.85rem; display: flex; justify-content: space-between; }
+    @media (max-width: 40rem) { .features { grid-template-columns: 1fr; } .floats { grid-template-columns: 1fr; } nav { display: none; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="brand">AERO</span>
+      <nav><a href="#">Work</a><a href="#">Studio</a><a href="#">Contact</a></nav>
+      <button class="theme" id="theme">Dark</button>
+    </header>
+    <section class="hero">
+      <h1>Software that feels <b>weightless.</b></h1>
+      <div class="floats">
+        <div class="float"><div class="num">99.2%</div><p>tasks completed on first try</p></div>
+        <div class="float"><div class="num">0.8s</div><p>average time to first value</p></div>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="#">Request access</a>
+        <a class="btn btn-ghost" href="#">Read the approach</a>
+      </div>
+    </section>
+    <section class="features">
+      <div class="feature"><h3>Fast</h3><p>Interfaces tuned to the millisecond, not the sprint.</p></div>
+      <div class="feature"><h3>Clear</h3><p>One decision per screen, no hidden depth.</p></div>
+      <div class="feature"><h3>Quiet</h3><p>Design that earns attention by staying out of the way.</p></div>
+    </section>
+    <footer><span>© 2026 AERO</span><span>Fictional demo for premium-website-design</span></footer>
+  </div>
+  <script>
+    const root = document.documentElement;
+    const btn = document.getElementById("theme");
+    btn.addEventListener("click", () => {
+      const next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      btn.textContent = next === "dark" ? "Dark" : "Light";
+    });
+  </script>
+</body>
+</html>

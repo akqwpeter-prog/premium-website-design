@@ -8,18 +8,28 @@
 
 ## 效果图
 
-技能渲染的 4 种风格方向（均为虚构演示内容）：
+以下截图均为虚构演示内容。
+
+### 版式风格
 
 | 风格 | 深色 | 浅色 |
 | --- | --- | --- |
-| 钴蓝墨 · Lumen | ![钴蓝深色](assets/demo/dark.png) | ![钴蓝浅色](assets/demo/light.png) |
+| Bento 网格 · Lumen | ![Bento 深色](assets/demo/dark.png) | ![Bento 浅色](assets/demo/light.png) |
+| 杂志编辑风 · The Ledger | ![杂志深色](assets/demo/layouts/editorial-dark.webp) | ![杂志浅色](assets/demo/layouts/editorial-light.webp) |
+| 粗野主义 · BRUT// | ![粗野深色](assets/demo/layouts/brutal-dark.webp) | ![粗野浅色](assets/demo/layouts/brutal-light.webp) |
+| 柔和结构风 · AERO | ![柔和深色](assets/demo/layouts/soft-dark.webp) | ![柔和浅色](assets/demo/layouts/soft-light.webp) |
+
+### 配色方向
+
+| 配色 | 深色 | 浅色 |
+| --- | --- | --- |
 | 森林绿 · Moss | ![森林深色](assets/demo/styles/forest-dark.webp) | ![森林浅色](assets/demo/styles/forest-light.webp) |
 | 单色樱桃红 · Noir | ![单色深色](assets/demo/styles/noir-dark.webp) | ![单色浅色](assets/demo/styles/noir-light.webp) |
 | 陶土石板灰 · Atelier Terra | ![陶土深色](assets/demo/styles/terra-dark.webp) | ![陶土浅色](assets/demo/styles/terra-light.webp) |
 
 移动端布局：![移动端](assets/demo/mobile.png)
 
-示例源码位于 `assets/demo/`，每个示例使用各自的设计令牌。
+示例源码位于 `assets/demo/`，每个示例使用各自的版式与设计令牌。
 
 ## 它能做什么
 

@@ -8,18 +8,28 @@ A Codex skill that designs distinctive, production-grade personal websites, port
 
 ## Gallery
 
-Four style directions rendered by the skill (all fictional demo content):
+All screenshots are fictional demo content.
+
+### Layout styles
 
 | Style | Dark | Light |
 | --- | --- | --- |
-| Cobalt Ink · Lumen | ![Cobalt dark](assets/demo/dark.png) | ![Cobalt light](assets/demo/light.png) |
+| Bento Grid · Lumen | ![Bento dark](assets/demo/dark.png) | ![Bento light](assets/demo/light.png) |
+| Editorial Magazine · The Ledger | ![Editorial dark](assets/demo/layouts/editorial-dark.webp) | ![Editorial light](assets/demo/layouts/editorial-light.webp) |
+| Brutalist · BRUT// | ![Brutal dark](assets/demo/layouts/brutal-dark.webp) | ![Brutal light](assets/demo/layouts/brutal-light.webp) |
+| Soft Structural · AERO | ![Soft dark](assets/demo/layouts/soft-dark.webp) | ![Soft light](assets/demo/layouts/soft-light.webp) |
+
+### Color directions
+
+| Palette | Dark | Light |
+| --- | --- | --- |
 | Forest · Moss | ![Forest dark](assets/demo/styles/forest-dark.webp) | ![Forest light](assets/demo/styles/forest-light.webp) |
 | Mono Cherry · Noir | ![Noir dark](assets/demo/styles/noir-dark.webp) | ![Noir light](assets/demo/styles/noir-light.webp) |
 | Terracotta Slate · Atelier Terra | ![Terra dark](assets/demo/styles/terra-dark.webp) | ![Terra light](assets/demo/styles/terra-light.webp) |
 
 Mobile layout: ![Mobile](assets/demo/mobile.png)
 
-Demo sources live in `assets/demo/`, each with its own token system.
+Demo sources live in `assets/demo/`, each with its own layout and token system.
 
 ## What it does
 

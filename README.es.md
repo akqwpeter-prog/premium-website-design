@@ -12,6 +12,9 @@ Cuatro direcciones de estilo generadas por el skill (todo contenido ficticio):
 
 | Style | Dark | Light |
 | --- | --- | --- |
+| Editorial Magazine · The Ledger | ![dark](assets/demo/layouts/editorial-dark.webp) | ![light](assets/demo/layouts/editorial-light.webp) |
+| Brutalist · BRUT// | ![dark](assets/demo/layouts/brutal-dark.webp) | ![light](assets/demo/layouts/brutal-light.webp) |
+| Soft Structural · AERO | ![dark](assets/demo/layouts/soft-dark.webp) | ![light](assets/demo/layouts/soft-light.webp) |
 | Cobalt Ink · Lumen | ![dark](assets/demo/dark.png) | ![light](assets/demo/light.png) |
 | Forest · Moss | ![dark](assets/demo/styles/forest-dark.webp) | ![light](assets/demo/styles/forest-light.webp) |
 | Mono Cherry · Noir | ![dark](assets/demo/styles/noir-dark.webp) | ![light](assets/demo/styles/noir-light.webp) |
