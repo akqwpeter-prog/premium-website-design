@@ -6,6 +6,16 @@
 
 **用本技能完成的线上案例：** https://mengjin-site.pages.dev
 
+## 效果图
+
+技能渲染的示例输出（虚构演示内容，非真实网站）：
+
+| 深色主题 | 浅色主题 | 移动端 |
+| --- | --- | --- |
+| ![深色主题](assets/demo/dark.png) | ![浅色主题](assets/demo/light.png) | ![移动端](assets/demo/mobile.png) |
+
+示例源码位于 `assets/demo/index.html`，使用本技能的令牌模板。
+
 ## 它能做什么
 
 1. **设计阅读** - 推断受众与需求，设定 变化度/动效强度/视觉密度 三个拨盘

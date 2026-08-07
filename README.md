@@ -6,6 +6,16 @@ A Codex skill that designs distinctive, production-grade personal websites, port
 
 **Live demo built with this skill:** https://mengjin-site.pages.dev
 
+## Gallery
+
+Example output rendered by the skill (fictional demo content, not a real site):
+
+| Dark theme | Light theme | Mobile |
+| --- | --- | --- |
+| ![Dark theme](assets/demo/dark.png) | ![Light theme](assets/demo/light.png) | ![Mobile](assets/demo/mobile.png) |
+
+The demo source lives in `assets/demo/index.html` and uses the starter token system.
+
 ## What it does
 
 1. **Design Read** - infer audience and brief, set variance / motion / density dials
