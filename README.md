@@ -1,6 +1,6 @@
 # Premium Website Design
 
-[中文版](README.zh-CN.md)
+[中文版](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md)
 
 A Codex skill that designs distinctive, production-grade personal websites, portfolios, and landing pages end-to-end: direction, tokens, typography, tactile interactions, generative artwork, light/dark themes, QA verification, and deploy readiness.
 
@@ -23,7 +23,8 @@ The demo source lives in `assets/demo/index.html` and uses the starter token sys
 3. **Tokens & skeleton** - OKLCH dark-first theme system with light overrides
 4. **Interactions** - character entrance, cursor spotlight, 3D tilt, magnetic buttons, scroll-linked rails, marquee, aurora, theme toggle
 5. **Artwork** - seeded generative art (no API key required) or AI avatar pipeline with privacy rules
-6. **Verification & deploy** - preflight checklist, Playwright QA, Cloudflare Pages config
+6. **Icons** - auto-search and fetch icons from Iconify / Simple Icons / iconfont with a fail-closed verification checklist
+7. **Verification & deploy** - preflight checklist, Playwright QA, Cloudflare Pages config
 
 ## Install
 
@@ -50,6 +51,7 @@ SKILL.md                      Core workflow
 references/preflight.md       Release gate checklist
 references/interactions.md    Motion recipes with code
 references/art-pipeline.md    Generative art + avatar + privacy
+references/icons.md           Icon sourcing + verification
 assets/tokens.css             Starter design tokens
 scripts/qa_site.py            Generic Playwright verification
 agents/openai.yaml            UI metadata
