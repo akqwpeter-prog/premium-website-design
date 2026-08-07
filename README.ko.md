@@ -1,5 +1,9 @@
 # Premium Website Design
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-1a5dff.svg)
+
 [English](README.md) · [中文版](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [Français](README.fr.md)
 
 개인 사이트, 포트폴리오, 랜딩 페이지를 방향 설정부터 디자인 토큰, 타이포그래피, 인터랙션, 생성 아트, 라이트/다크 테마, QA, 배포까지 일관되게 설계하는 Codex 스킬입니다.

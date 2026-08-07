@@ -1,5 +1,9 @@
 # Premium Website Design
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-1a5dff.svg)
+
 [English](README.md) · [中文版](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md)
 
 Un skill de Codex para diseñar sitios personales, portafolios y páginas de aterrizaje de extremo a extremo: dirección, tokens, tipografía, interacciones táctiles, arte generativo, temas claro/oscuro, QA y despliegue.

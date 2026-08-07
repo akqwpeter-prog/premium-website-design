@@ -1,10 +1,21 @@
 # Premium Website Design（高级网站设计技能）
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-1a5dff.svg)
+![Docs](https://img.shields.io/badge/docs-6%20languages-blue.svg)
+
 [English](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md)
 
 一个 Codex 技能，用于端到端设计有辨识度、可上线的个人网站、作品集和落地页：方向判断、设计令牌、排版、触感交互、生成式插画、浅色/深色主题、QA 验收和部署配置。
 
 **用本技能完成的线上案例：** https://mengjin-site.pages.dev
+
+## 为什么选它
+
+- **没有 AI 模板味。** 每个项目先做设计阅读，再定一个明确方向，而不是紫色渐变加三张等宽卡片。
+- **默认保护隐私。** 只保留年份、不展示手机号、用生成头像代替真人照片，每次发布前做隐私扫描。
+- **能上线而不是摆样子。** 预检清单、Playwright QA、对比度检查和 Cloudflare Pages 部署配置都是工作流的一部分。
 
 ## 效果图
 
@@ -69,6 +80,10 @@ assets/tokens.css             设计令牌模板
 scripts/qa_site.py            通用 Playwright 验收
 agents/openai.yaml            UI 元数据
 ```
+
+## 参与贡献
+
+Bug 反馈、想法和 Pull Request 都欢迎，打开 [issue](https://github.com/akqwpeter-prog/premium-website-design/issues) 或直接提 PR。
 
 ## 许可证
 

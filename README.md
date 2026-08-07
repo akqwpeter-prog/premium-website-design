@@ -1,10 +1,21 @@
 # Premium Website Design
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-1a5dff.svg)
+![Docs](https://img.shields.io/badge/docs-6%20languages-blue.svg)
+
 [中文版](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md)
 
-A Codex skill that designs distinctive, production-grade personal websites, portfolios, and landing pages end-to-end: direction, tokens, typography, tactile interactions, generative artwork, light/dark themes, QA verification, and deploy readiness.
+**A Codex skill that designs distinctive, production-grade personal websites, portfolios, and landing pages end-to-end — without the template look.**
 
 **Live demo built with this skill:** https://mengjin-site.pages.dev
+
+## Why this skill
+
+- **No AI-slop defaults.** Every project starts with a design read and a committed direction, not a purple gradient and three equal cards.
+- **Privacy-first by default.** Year-only dates, no phone numbers, generated avatars instead of real photos, and a scan before every release.
+- **Shipped, not mocked.** Preflight checklist, Playwright QA, contrast checks, and a Cloudflare Pages recipe are part of the workflow.
 
 ## Gallery
 
@@ -41,17 +52,21 @@ Demo sources live in `assets/demo/`, each with its own layout and token system.
 6. **Icons** - auto-search and fetch icons from Iconify / Simple Icons / iconfont with a fail-closed verification checklist
 7. **Verification & deploy** - preflight checklist, Playwright QA, Cloudflare Pages config
 
-## Install
+## Quick start
 
-Inside Codex, ask to install the skill from this repository, or copy it into your skills directory:
+Install into your skills directory:
 
 ```bash
 cp -r premium-website-design ~/.codex/skills/
 ```
 
-## Usage
+Or ask Codex directly:
 
-Once installed, Codex loads the skill automatically when you ask for a personal site, portfolio, landing page, or redesign. Example prompts:
+```text
+Install the skill from https://github.com/akqwpeter-prog/premium-website-design
+```
+
+Then use it:
 
 ```text
 Design a premium personal website for an AI product director.
@@ -68,9 +83,14 @@ references/interactions.md    Motion recipes with code
 references/art-pipeline.md    Generative art + avatar + privacy
 references/icons.md           Icon sourcing + verification
 assets/tokens.css             Starter design tokens
+assets/demo/                  Fictional demos: layouts + palettes
 scripts/qa_site.py            Generic Playwright verification
 agents/openai.yaml            UI metadata
 ```
+
+## Contributing
+
+Bug reports, ideas, and pull requests are welcome. Open an [issue](https://github.com/akqwpeter-prog/premium-website-design/issues) or submit a PR — every contribution helps the skill get better.
 
 ## License
 
