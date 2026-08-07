@@ -6,6 +6,19 @@ Un skill de Codex para diseñar sitios personales, portafolios y páginas de ate
 
 **Demo real hecha con este skill:** https://mengjin-site.pages.dev
 
+## Galería
+
+Cuatro direcciones de estilo generadas por el skill (todo contenido ficticio):
+
+| Style | Dark | Light |
+| --- | --- | --- |
+| Cobalt Ink · Lumen | ![dark](assets/demo/dark.png) | ![light](assets/demo/light.png) |
+| Forest · Moss | ![dark](assets/demo/styles/forest-dark.webp) | ![light](assets/demo/styles/forest-light.webp) |
+| Mono Cherry · Noir | ![dark](assets/demo/styles/noir-dark.webp) | ![light](assets/demo/styles/noir-light.webp) |
+| Terracotta Slate · Atelier Terra | ![dark](assets/demo/styles/terra-dark.webp) | ![light](assets/demo/styles/terra-light.webp) |
+
+Móvil: ![mobile](assets/demo/mobile.png)
+
 ## Qué hace
 
 1. **Lectura de diseño** - infiere audiencia y brief, ajusta variación / movimiento / densidad

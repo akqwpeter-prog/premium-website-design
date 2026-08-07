@@ -6,6 +6,19 @@
 
 **이 스킬로 만든 예시:** https://mengjin-site.pages.dev
 
+## 갤러리
+
+이 스킬로 만든 4가지 방향(모두 가상 데모):
+
+| Style | Dark | Light |
+| --- | --- | --- |
+| Cobalt Ink · Lumen | ![dark](assets/demo/dark.png) | ![light](assets/demo/light.png) |
+| Forest · Moss | ![dark](assets/demo/styles/forest-dark.webp) | ![light](assets/demo/styles/forest-light.webp) |
+| Mono Cherry · Noir | ![dark](assets/demo/styles/noir-dark.webp) | ![light](assets/demo/styles/noir-light.webp) |
+| Terracotta Slate · Atelier Terra | ![dark](assets/demo/styles/terra-dark.webp) | ![light](assets/demo/styles/terra-light.webp) |
+
+모바일: ![mobile](assets/demo/mobile.png)
+
 ## 기능
 
 1. **디자인 리드** - 대상과 요구를 파악하고 변주/모션/밀도 다이얼 설정

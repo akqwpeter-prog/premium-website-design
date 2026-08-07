@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOIR (fictional demo)</title>
+  <style>
+    :root {
+      --font: "Plus Jakarta Sans", sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+      --paper: oklch(0.15 0 0);
+      --surface: oklch(0.2 0 0);
+      --rule: oklch(0.3 0 0);
+      --rule-2: oklch(0.5 0 0);
+      --muted: oklch(0.72 0 0);
+      --ink: oklch(0.96 0 0);
+      --accent: oklch(0.62 0.22 25);
+      --accent-deep: oklch(0.54 0.22 25);
+      --accent-ink: oklch(0.98 0 0);
+    }
+    :root[data-theme="light"] {
+      --paper: oklch(0.975 0 0);
+      --surface: oklch(0.94 0 0);
+      --rule: oklch(0.88 0 0);
+      --rule-2: oklch(0.72 0 0);
+      --muted: oklch(0.45 0 0);
+      --ink: oklch(0.18 0 0);
+      --accent: oklch(0.55 0.2 25);
+      --accent-deep: oklch(0.47 0.2 25);
+      --accent-ink: oklch(0.98 0 0);
+    }
+  </style>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#">NOIR.</a>
+    <nav><a href="#">Work</a><a href="#">Studio</a><a href="#">Index</a><a href="#">Contact</a></nav>
+    <button class="theme" id="theme">Light</button>
+  </header>
+  <main>
+    <section class="hero container">
+      <p class="label">Type · Image · Motion</p>
+      <h1>Design in black.<br>One color says it all.</h1>
+      <p>An independent studio for brands that want to be remembered.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#">Book the studio</a>
+        <a class="btn btn-ghost" href="#">See the index</a>
+      </div>
+    </section>
+    <div class="marquee"><span>Identity&nbsp;/&nbsp;Editorial&nbsp;/&nbsp;Motion&nbsp;/&nbsp;Digital&nbsp;/&nbsp;&nbsp;</span></div>
+    <section class="bento container">
+      <div class="cell wide"><h3>One system, many voices</h3><p>Identity, editorial, and motion from a single studio.</p></div>
+      <div class="cell"><div class="stat">60</div><p>identities launched</p></div>
+      <div class="cell"><div class="stat">14</div><p>awards shortlisted</p></div>
+      <div class="cell"><h3>Capabilities</h3><ul><li>Identity</li><li>Editorial</li><li>Motion</li></ul></div>
+      <div class="cell tall"><h3>Flagship</h3><p>A monochrome magazine system running in 9 countries.</p></div>
+      <div class="cell"><h3>Approach</h3><p>Fewer ideas, sharper execution.</p></div>
+    </section>
+  </main>
+  <footer class="contact">© 2026 NOIR Studio · Fictional demo for premium-website-design</footer>
+  <script>
+    const root = document.documentElement;
+    const btn = document.getElementById("theme");
+    btn.addEventListener("click", () => {
+      const next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      btn.textContent = next === "dark" ? "Light" : "Dark";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moss Studio (fictional demo)</title>
+  <style>
+    :root {
+      --font: "Plus Jakarta Sans", sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+      --paper: oklch(0.17 0.025 150);
+      --surface: oklch(0.21 0.028 150);
+      --rule: oklch(0.3 0.03 150);
+      --rule-2: oklch(0.46 0.03 150);
+      --muted: oklch(0.72 0.02 150);
+      --ink: oklch(0.95 0.01 120);
+      --accent: oklch(0.64 0.13 145);
+      --accent-deep: oklch(0.55 0.13 145);
+      --accent-ink: oklch(0.14 0.02 150);
+    }
+    :root[data-theme="light"] {
+      --paper: oklch(0.965 0.015 90);
+      --surface: oklch(0.945 0.015 90);
+      --rule: oklch(0.88 0.015 90);
+      --rule-2: oklch(0.74 0.02 90);
+      --muted: oklch(0.46 0.02 130);
+      --ink: oklch(0.24 0.02 145);
+      --accent: oklch(0.5 0.12 145);
+      --accent-deep: oklch(0.42 0.12 145);
+      --accent-ink: oklch(0.98 0.01 90);
+    }
+  </style>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#">Moss</a>
+    <nav><a href="#">Work</a><a href="#">Studio</a><a href="#">Journal</a><a href="#">Contact</a></nav>
+    <button class="theme" id="theme">Light</button>
+  </header>
+  <main>
+    <section class="hero container">
+      <p class="label">Product Studio · Est. 2019</p>
+      <h1>Software with roots.<br>Built to grow slow.</h1>
+      <p>We design calm tools for people who care about their craft.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#">Start a project</a>
+        <a class="btn btn-ghost" href="#">See our work</a>
+      </div>
+    </section>
+    <div class="marquee"><span>Editorial&nbsp;/&nbsp;Commerce&nbsp;/&nbsp;Health&nbsp;/&nbsp;Craft&nbsp;/&nbsp;&nbsp;</span></div>
+    <section class="bento container">
+      <div class="cell wide"><h3>Slow product, long shelf life</h3><p>One team, one build loop, no dashboard sprawl.</p></div>
+      <div class="cell"><div class="stat">40</div><p>shipped products</p></div>
+      <div class="cell"><div class="stat">9yr</div><p>median client tenure</p></div>
+      <div class="cell"><h3>Capabilities</h3><ul><li>Editorial</li><li>Commerce</li><li>Health</li></ul></div>
+      <div class="cell tall"><h3>Flagship</h3><p>A field journal for plant nurseries, used by 120k growers.</p></div>
+      <div class="cell"><h3>Approach</h3><p>Ship thin, listen long, evolve with the season.</p></div>
+    </section>
+  </main>
+  <footer class="contact">© 2026 Moss Studio · Fictional demo for premium-website-design</footer>
+  <script>
+    const root = document.documentElement;
+    const btn = document.getElementById("theme");
+    btn.addEventListener("click", () => {
+      const next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      btn.textContent = next === "dark" ? "Light" : "Dark";
+    });
+  </script>
+</body>
+</html>

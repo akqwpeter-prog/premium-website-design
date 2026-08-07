@@ -6,6 +6,19 @@
 
 **このスキルで作った実例:** https://mengjin-site.pages.dev
 
+## ギャラリー
+
+このスキルで作った 4 つの方向性（すべて架空のデモ）：
+
+| Style | Dark | Light |
+| --- | --- | --- |
+| Cobalt Ink · Lumen | ![dark](assets/demo/dark.png) | ![light](assets/demo/light.png) |
+| Forest · Moss | ![dark](assets/demo/styles/forest-dark.webp) | ![light](assets/demo/styles/forest-light.webp) |
+| Mono Cherry · Noir | ![dark](assets/demo/styles/noir-dark.webp) | ![light](assets/demo/styles/noir-light.webp) |
+| Terracotta Slate · Atelier Terra | ![dark](assets/demo/styles/terra-dark.webp) | ![light](assets/demo/styles/terra-light.webp) |
+
+モバイル：![mobile](assets/demo/mobile.png)
+
 ## できること
 
 1. **デザインリード** - 対象と目的を読み取り、バリエーション / モーション / 密度のダイヤルを設定

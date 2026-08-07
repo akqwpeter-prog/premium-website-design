@@ -8,13 +8,18 @@
 
 ## 效果图
 
-技能渲染的示例输出（虚构演示内容，非真实网站）：
+技能渲染的 4 种风格方向（均为虚构演示内容）：
 
-| 深色主题 | 浅色主题 | 移动端 |
+| 风格 | 深色 | 浅色 |
 | --- | --- | --- |
-| ![深色主题](assets/demo/dark.png) | ![浅色主题](assets/demo/light.png) | ![移动端](assets/demo/mobile.png) |
+| 钴蓝墨 · Lumen | ![钴蓝深色](assets/demo/dark.png) | ![钴蓝浅色](assets/demo/light.png) |
+| 森林绿 · Moss | ![森林深色](assets/demo/styles/forest-dark.webp) | ![森林浅色](assets/demo/styles/forest-light.webp) |
+| 单色樱桃红 · Noir | ![单色深色](assets/demo/styles/noir-dark.webp) | ![单色浅色](assets/demo/styles/noir-light.webp) |
+| 陶土石板灰 · Atelier Terra | ![陶土深色](assets/demo/styles/terra-dark.webp) | ![陶土浅色](assets/demo/styles/terra-light.webp) |
 
-示例源码位于 `assets/demo/index.html`，使用本技能的令牌模板。
+移动端布局：![移动端](assets/demo/mobile.png)
+
+示例源码位于 `assets/demo/`，每个示例使用各自的设计令牌。
 
 ## 它能做什么
 

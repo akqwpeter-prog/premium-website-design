@@ -8,13 +8,18 @@ A Codex skill that designs distinctive, production-grade personal websites, port
 
 ## Gallery
 
-Example output rendered by the skill (fictional demo content, not a real site):
+Four style directions rendered by the skill (all fictional demo content):
 
-| Dark theme | Light theme | Mobile |
+| Style | Dark | Light |
 | --- | --- | --- |
-| ![Dark theme](assets/demo/dark.png) | ![Light theme](assets/demo/light.png) | ![Mobile](assets/demo/mobile.png) |
+| Cobalt Ink · Lumen | ![Cobalt dark](assets/demo/dark.png) | ![Cobalt light](assets/demo/light.png) |
+| Forest · Moss | ![Forest dark](assets/demo/styles/forest-dark.webp) | ![Forest light](assets/demo/styles/forest-light.webp) |
+| Mono Cherry · Noir | ![Noir dark](assets/demo/styles/noir-dark.webp) | ![Noir light](assets/demo/styles/noir-light.webp) |
+| Terracotta Slate · Atelier Terra | ![Terra dark](assets/demo/styles/terra-dark.webp) | ![Terra light](assets/demo/styles/terra-light.webp) |
 
-The demo source lives in `assets/demo/index.html` and uses the starter token system.
+Mobile layout: ![Mobile](assets/demo/mobile.png)
+
+Demo sources live in `assets/demo/`, each with its own token system.
 
 ## What it does
 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Terra (fictional demo)</title>
+  <style>
+    :root {
+      --font: "Plus Jakarta Sans", sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+      --paper: oklch(0.18 0.02 260);
+      --surface: oklch(0.22 0.02 260);
+      --rule: oklch(0.32 0.02 260);
+      --rule-2: oklch(0.48 0.02 260);
+      --muted: oklch(0.74 0.015 250);
+      --ink: oklch(0.95 0.008 240);
+      --accent: oklch(0.64 0.13 45);
+      --accent-deep: oklch(0.56 0.13 45);
+      --accent-ink: oklch(0.16 0.02 60);
+    }
+    :root[data-theme="light"] {
+      --paper: oklch(0.965 0.01 70);
+      --surface: oklch(0.945 0.01 70);
+      --rule: oklch(0.88 0.012 70);
+      --rule-2: oklch(0.74 0.015 70);
+      --muted: oklch(0.46 0.015 70);
+      --ink: oklch(0.24 0.02 260);
+      --accent: oklch(0.55 0.12 45);
+      --accent-deep: oklch(0.47 0.12 45);
+      --accent-ink: oklch(0.99 0.005 70);
+    }
+  </style>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#">Terra</a>
+    <nav><a href="#">Work</a><a href="#">Atelier</a><a href="#">Notes</a><a href="#">Contact</a></nav>
+    <button class="theme" id="theme">Light</button>
+  </header>
+  <main>
+    <section class="hero container">
+      <p class="label">Design & Build · Lisbon</p>
+      <h1>Honest tools,<br>warm hands.</h1>
+      <p>An atelier for products with texture, story, and staying power.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#">Start together</a>
+        <a class="btn btn-ghost" href="#">Browse work</a>
+      </div>
+    </section>
+    <div class="marquee"><span>Object&nbsp;/&nbsp;Digital&nbsp;/&nbsp;Space&nbsp;/&nbsp;System&nbsp;/&nbsp;&nbsp;</span></div>
+    <section class="bento container">
+      <div class="cell wide"><h3>Craft across surfaces</h3><p>From packaging to platforms, one material language.</p></div>
+      <div class="cell"><div class="stat">32</div><p>products in market</p></div>
+      <div class="cell"><div class="stat">12</div><p>cities served</p></div>
+      <div class="cell"><h3>Capabilities</h3><ul><li>Object</li><li>Digital</li><li>Space</li></ul></div>
+      <div class="cell tall"><h3>Flagship</h3><p>A ceramic studio's ordering system, live in 3 countries.</p></div>
+      <div class="cell"><h3>Approach</h3><p>Prototype in the hand, not the slide.</p></div>
+    </section>
+  </main>
+  <footer class="contact">© 2026 Atelier Terra · Fictional demo for premium-website-design</footer>
+  <script>
+    const root = document.documentElement;
+    const btn = document.getElementById("theme");
+    btn.addEventListener("click", () => {
+      const next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      btn.textContent = next === "dark" ? "Light" : "Dark";
+    });
+  </script>
+</body>
+</html>
