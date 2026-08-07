@@ -94,8 +94,9 @@ Prefer real imagery with a job: hero anchor, flagship proof, contact atmosphere.
 
 - **No API key**: use the algorithmic-art pipeline (flow field / particles) in `references/art-pipeline.md`; export transparent WebP and blend with `screen` on dark, `multiply` on light.
 - **API key available**: generate a stylized avatar (e.g., Seedream image-to-image) from a reference photo; keep the likeness, then remove the real photo from the public repo.
+- **Icons**: use `references/icons.md`. Prefer Iconify API or Simple Icons (official brand glyphs) over scraping; inline SVG with `fill: currentColor`, never external CSS masks.
 - Optimize: crop to rendered aspect, resize to 2x display size, WebP q80+, lazy-load below-fold art, `fetchpriority="high"` only for LCP.
-- Add `_headers` with long cache for `/assets/*`.
+- Add `_headers`: long cache only for images/fonts; keep CSS/JS revalidating; version CSS/JS URLs on change.
 
 ## 6. Verification & deploy
 
@@ -119,5 +120,6 @@ Deploy readiness (static site on Cloudflare Pages):
 - `references/preflight.md` - release gate checklist
 - `references/interactions.md` - motion recipes with code
 - `references/art-pipeline.md` - generative art + avatar + privacy
+- `references/icons.md` - icon sourcing (Iconify / Simple Icons / iconfont) + verification
 - `assets/tokens.css` - starter token system (dark-first + light)
 - `scripts/qa_site.py` - generic Playwright verification
