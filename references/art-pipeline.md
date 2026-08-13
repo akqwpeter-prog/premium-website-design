@@ -12,6 +12,26 @@ Generate original abstract art with a p5.js flow-field sketch, export through a 
 
 Same-seed guarantee: use `randomSeed(seed)` and `noiseSeed(seed)`.
 
+## Free image pipeline (recommended, no watermark)
+
+Two free providers keep the site self-sufficient. Keys come from environment variables only (`SF_API_KEY`, `GLM_API_KEY`) - never commit them.
+
+### Generation: SiliconFlow Kolors
+
+1. POST `https://api.siliconflow.cn/v1/images/generations` with `Authorization: Bearer $SF_API_KEY`.
+2. Body: `{"model": "Kwai-Kolors/Kolors", "prompt": "...", "image_size": "1024x1024", "batch_size": 1}`.
+3. Save the full JSON response (do not truncate the signed URL), then download `images[0].url`.
+4. Free, no watermark, no cropping needed; rate limit about 2 images/min.
+5. If a model id returns `Model disabled`, list available models via GET `/v1/models` and switch to another free one.
+
+### Review: Zhipu GLM-4V-Flash (free vision)
+
+1. POST `https://open.bigmodel.cn/api/paas/v4/chat/completions` with `Authorization: Bearer $GLM_API_KEY`.
+2. Body: `{"model": "glm-4v-flash", "messages": [{"role": "user", "content": [{"type": "image_url", "image_url": {"url": "data:image/jpeg;base64,..."}}, {"type": "text", "text": "..."}]}], "max_tokens": 1024}`.
+3. Limits: `max_tokens` must be <= 1024; downscale screenshots to <= 1024px JPEG before sending.
+4. Ask for concrete issues and explicitly check watermark/logo presence on generated art.
+5. Paid fallback: Doubao Seedream / Seed vision on Volcano Ark when quotas are available.
+
 ## AI avatar (API key available)
 
 Seedream (Volcano Ark) image-to-image flow:
