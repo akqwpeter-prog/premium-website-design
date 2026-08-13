@@ -32,7 +32,7 @@ Móvil: ![mobile](assets/demo/mobile.png)
 2. **Dirección** - una estética clara, sin plantillas genéricas
 3. **Tokens y esqueleto** - sistema OKLCH dark-first con tema claro
 4. **Interacciones** - entrada de personajes, spotlight, tilt 3D, botones magnéticos, scroll, marquee, cambio de tema
-5. **Arte** - arte generativo con semilla (sin API key) o avatar IA con privacidad
+5. **Arte** - generación gratuita sin marca de agua (SiliconFlow Kolors) + revisión visual gratuita (GLM-4V-Flash), arte generativo sin API, o pipeline de avatar IA con privacidad
 6. **Iconos** - búsqueda y descarga automática desde Iconify / Simple Icons / iconfont con verificación
 7. **Verificación y despliegue** - checklist, QA con Playwright, Cloudflare Pages
 
