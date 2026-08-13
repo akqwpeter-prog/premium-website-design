@@ -92,8 +92,9 @@ Hard rules:
 
 Prefer real imagery with a job: hero anchor, flagship proof, contact atmosphere.
 
+- **Free API pipeline (recommended)**: SiliconFlow Kolors for watermark-free image generation + Zhipu GLM-4V-Flash for free visual review; keys come from environment variables only, never hardcoded. Details in `references/art-pipeline.md`.
 - **No API key**: use the algorithmic-art pipeline (flow field / particles) in `references/art-pipeline.md`; export transparent WebP and blend with `screen` on dark, `multiply` on light.
-- **API key available**: generate a stylized avatar (e.g., Seedream image-to-image) from a reference photo; keep the likeness, then remove the real photo from the public repo.
+- **Paid quota available**: generate a stylized avatar (e.g., Seedream image-to-image) from a reference photo; keep the likeness, then remove the real photo from the public repo.
 - **Icons**: use `references/icons.md`. Prefer Iconify API or Simple Icons (official brand glyphs) over scraping; inline SVG with `fill: currentColor`, never external CSS masks.
 - Optimize: crop to rendered aspect, resize to 2x display size, WebP q80+, lazy-load below-fold art, `fetchpriority="high"` only for LCP.
 - Add `_headers`: long cache only for images/fonts; keep CSS/JS revalidating; version CSS/JS URLs on change.
