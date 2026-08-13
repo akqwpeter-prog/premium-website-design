@@ -29,7 +29,7 @@ Fail-closed gate. Every box must be true before shipping.
 - [ ] No decorative scroll cues, version labels, section numbering eyebrows, or locale strips.
 - [ ] No pills/labels overlaid on images.
 - [ ] No duplicate CTA intent.
-- [ ] Privacy scan: no phone numbers, month-precision dates, or private files in the public dir.
+- [ ] Privacy scan: no phone numbers, month-precision dates, or private files in the public dir; no API keys or real photos in git history (`git log -p` shows none).
 
 ## Motion
 - [ ] Every animation justified; at least one entrance, one scroll-linked, one feedback effect.
