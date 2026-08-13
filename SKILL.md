@@ -1,6 +1,6 @@
 ---
 name: premium-website-design
-description: Design distinctive, production-grade personal websites, portfolios, and landing pages end-to-end. Use when the user asks to build, redesign, or review a personal site, portfolio, landing page, or any visually-led marketing page, including brief inference, design direction, tokens, typography, tactile interactions, generative artwork, icon sourcing and verification, light/dark themes, QA verification, and deploy readiness.
+description: Design distinctive, production-grade personal websites, portfolios, and landing pages end-to-end. Use when the user asks to build, redesign, or review a personal site, portfolio, landing page, or any visually-led marketing page, including brief inference, design direction, tokens, typography, tactile interactions, generative artwork (free watermark-free image generation + vision review), icon sourcing and verification, privacy-first content handling, light/dark themes, QA verification, and deploy readiness.
 ---
 
 # Premium Website Design
