@@ -48,7 +48,7 @@ Demo sources live in `assets/demo/`, each with its own layout and token system.
 2. **Direction** - one committed aesthetic, no AI-slop defaults
 3. **Tokens & skeleton** - OKLCH dark-first theme system with light overrides
 4. **Interactions** - character entrance, cursor spotlight, 3D tilt, magnetic buttons, scroll-linked rails, marquee, aurora, theme toggle
-5. **Artwork** - seeded generative art (no API key required) or AI avatar pipeline with privacy rules
+5. **Artwork** - free watermark-free generation (SiliconFlow Kolors) + free vision review (GLM-4V-Flash), seeded generative art without any API, or an AI avatar pipeline with privacy rules
 6. **Icons** - auto-search and fetch icons from Iconify / Simple Icons / iconfont with a fail-closed verification checklist
 7. **Verification & deploy** - preflight checklist, Playwright QA, Cloudflare Pages config
 
