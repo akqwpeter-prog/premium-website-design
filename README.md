@@ -16,6 +16,7 @@
 - **No AI-slop defaults.** Every project starts with a design read and a committed direction, not a purple gradient and three equal cards.
 - **Privacy-first by default.** Year-only dates, no phone numbers, generated avatars instead of real photos, and a scan before every release.
 - **Shipped, not mocked.** Preflight checklist, Playwright QA, contrast checks, and a Cloudflare Pages recipe are part of the workflow.
+- **Free media pipeline.** Watermark-free image generation (SiliconFlow Kolors) and visual review (GLM-4V-Flash) are built into the workflow, so quality checks do not require paid quotas.
 
 ## Gallery
 
